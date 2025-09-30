@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Send } from 'lucide-react'
+import { Mail, Phone, MapPin, Send, Download } from 'lucide-react'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -53,6 +53,17 @@ const Contact = () => {
                 I'm always interested in new opportunities and interesting projects. 
                 Whether you have a question or just want to say hi, feel free to reach out!
               </p>
+              
+              <div className="mb-8">
+                <a 
+                  href="Dinesh_CV.docx" 
+                  download="Dinesh_Karuppasamy_CV.docx"
+                  className="btn-primary"
+                >
+                  <Download size={18} />
+                  Download My CV
+                </a>
+              </div>
               
               <div className="space-y-6">
                 <div className="flex items-center gap-4">

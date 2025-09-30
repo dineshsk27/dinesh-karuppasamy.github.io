@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
+import { ArrowDown, Github, Linkedin, Mail, Download } from 'lucide-react'
 
 const Hero = () => {
   return (
@@ -52,6 +52,14 @@ const Hero = () => {
             </a>
             <a href="#contact" className="btn-secondary">
               Get In Touch
+            </a>
+            <a 
+              href="Dinesh_CV.docx" 
+              download="Dinesh_Karuppasamy_CV.docx"
+              className="btn-secondary"
+            >
+              <Download size={18} />
+              Download CV
             </a>
           </motion.div>
           

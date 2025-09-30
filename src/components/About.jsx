@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { Download } from 'lucide-react'
 
 const About = () => {
   return (
@@ -54,6 +55,17 @@ const About = () => {
                     <span className="font-semibold text-gray-900">Focus:</span>
                     <p className="text-gray-600">Cloud & DevOps</p>
                   </div>
+                </div>
+                
+                <div className="mt-6">
+                  <a 
+                    href="Dinesh_CV.docx" 
+                    download="Dinesh_Karuppasamy_CV.docx"
+                    className="btn-primary"
+                  >
+                    <Download size={18} />
+                    Download CV
+                  </a>
                 </div>
               </motion.div>
             </div>
