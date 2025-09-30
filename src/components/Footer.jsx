@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Dinesh Karuppasamy</h3>
             <p className="text-gray-400 mb-4">
-              AWS Certified Solutions Architect & DevOps Engineer with 6+ years of cloud expertise.
+              AWS Cloud Engineer& DevOps Engineer with 6+ years of cloud expertise.
             </p>
             <div className="flex space-x-4">
               <a

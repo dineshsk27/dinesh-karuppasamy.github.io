@@ -45,7 +45,7 @@ const Experience = () => {
 
   const certifications = [
     {
-      name: 'AWS Certified Solutions Architect – Associate',
+      name: 'AWS Cloud Engineer– Associate',
       year: '2020',
       icon: <Award className="w-5 h-5" />
     }

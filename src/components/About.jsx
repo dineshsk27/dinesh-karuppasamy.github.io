@@ -26,7 +26,7 @@ const About = () => {
                 viewport={{ once: true }}
               >
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  AWS Certified Solutions Architect & DevOps Engineer
+                  AWS Cloud Engineer& DevOps Engineer
                 </h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   AWS Cloud Engineer with 6+ years of Cloud & DevOps experience. 
