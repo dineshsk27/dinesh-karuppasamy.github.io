@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/dinesh-karuppasamy.github.io/',
   build: {
     outDir: 'dist',
-  },
-  publicDir: 'public',
-  assetsInclude: ['**/*.docx']
+    minify: false,
+    sourcemap: false
+  }
 })
